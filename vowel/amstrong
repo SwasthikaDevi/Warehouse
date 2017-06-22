@@ -1,0 +1,7 @@
+n=input("Enter a no.:")
+s=0
+while(n>0):
+    p=n%10
+    s+=p**3
+    n=n/10
+print(s)
