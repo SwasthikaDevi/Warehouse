@@ -1,0 +1,12 @@
+start=input("Enter the start:")
+end=input("Enter the end:")
+s=0
+for n in range(start,end):
+    q=n
+    while(q>0):
+        p=q%10
+        s+=p*p*p
+        q=q/10
+    if(s==n):
+        print(s)
+    s=0
